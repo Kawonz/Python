@@ -1,0 +1,29 @@
+#This is one of the packages from the Python Library.
+#It allows you to use any function within the random package. In this case "random.choice"
+#We are able to use the random package by importing it into our code
+import random
+
+#Defines the new fucntuion. Asks the user to guess a number; a random number is choosen.
+#Only integers(Whole Numbers) are accepted as an answer otherwise an error appears.
+def rollTheDice():
+  guess = int(input("Guess what number the dice will land on "))
+  answer = (random.choice([1,2,3,4,5,6]))
+
+# If the users number that they guessed is the same as the randomly picked number let the user know that the number was guessed correctly.
+  if (guess == answer):
+    #I am using the "blank" print messages for space purposes (Easier to read. More organization)
+    print("")
+    print("You got it correct! The answer is: ")
+    print(answer)
+  #If the number guessed is not the randomly picked number let the user know what they guessed and let them know what the correct answer ended up being.
+  else:
+    print("")
+    print("You guessed: ")
+    print(guess)
+    print("The answer was: " )
+    print(answer)
+    #Calls the rollTheDice function that was created on line 7.
+    rollTheDice()
+#Calls the rollTheDice function again.
+rollTheDice()
+  
