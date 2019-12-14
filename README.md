@@ -3,24 +3,10 @@ Below you can find some of my projects that I've worked on/currently improving o
 # SimpleRandomDiceGenerator
 A simple random dice simulation. The dice randomly rolls from 1 to 6. The users guess and the randomly generatered answer are compared.
 
-## Installation
+## RockPaperScissors
+A simple rock, paper, scissors game. The user has to try to beat the (computer) at rock, paper, scissors. 
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
+--------------------------------------------------------------------------------------------------------------------------------------
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
