@@ -1,4 +1,4 @@
-Below you can find some of my projects that I've worked on/currently improving on. All of the projects in this repository are programmed in Python.
+Below you can find some of my projects that I've worked on/currently improving. All of the projects in this repository are programmed in Python.
 
 # SimpleRandomDiceGenerator
 A simple random dice simulation. The dice randomly rolls from 1 to 6. The users guess and the randomly generatered answer are compared.
