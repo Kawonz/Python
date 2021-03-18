@@ -1,6 +1,6 @@
 # password_generator.py
 
-This password generator is used to create a random password using symbols, letters, and numbers. After the password has been created, the user has a choice to save the password to a file.
+This password generator program is used to create a random password using symbols, letters, and numbers. After the password has been created, the user has a choice to save the password to a file.
 
 ## password_generator.py usage
 When using this program, you will be prompted with the following message:
