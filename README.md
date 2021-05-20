@@ -10,6 +10,3 @@ When using this program, you will be prompted with the following message:
     print("[Password length] [Letters? Y/N] [Numbers? Y/N] [Symbols? Y/N]")
     print("[Ex: 5 Y Y Y]")
 ```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
