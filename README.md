@@ -4,9 +4,9 @@ This password generator program is used to create a random password using symbol
 
 ## password_generator.py usage
 When using this program, you will be prompted with the following message:
-```python
-    print("Password Generator:")
-    print("Please type in the follow order with SPACES separarting.")
-    print("[Password length] [Letters? Y/N] [Numbers? Y/N] [Symbols? Y/N]")
-    print("[Ex: 5 Y Y Y]")
+```
+    Password Generator
+    Please type in the follow order with SPACES separarting.
+    [Password length] [Letters? Y/N] [Numbers? Y/N] [Symbols? Y/N]
+    [Ex: 5 Y Y Y]
 ```
