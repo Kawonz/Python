@@ -1,6 +1,6 @@
 # Password Generator
 
-> This password generator console program is used to create a random password using symbols, letters, and numbers. After the password has been created, the user has a choice to save the password to a file.
+> This password generator console program is used to create a random password using symbols, letters, and numbers. After the password has been created, the user has a choice to save the password to a file of their choice.
 <br>
 
 ## Usage
