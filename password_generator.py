@@ -7,9 +7,11 @@ SYMBOLS = string.punctuation
 
 def main():
     print("Password Generator:")
-    print("Please type in the follow order with SPACES separarting.")
+    print(" -------------------")
+    print("Please type the input in the follow order with SPACES separarting each number or letter.")
     print("[Password length] [Letters? Y/N] [Numbers? Y/N] [Symbols? Y/N]")
     print("[Ex: 5 Y Y Y]")
+    print("*Please note that Y means 'Yes' and N means 'No'*")
     userInput = input()
     global newUserInput
     newUserInput = userInput.split(" ")
@@ -66,10 +68,10 @@ def generatePassword():
 
     #No password Criteria
     elif newUserInput[1] == "N" and newUserInput[2] == "N" and newUserInput[3] == "N":
-        print("I can't make that password")
+        print("That password cannot be made.")
 
     else:
-        print("Invalid Input")
+        print("Invalid input")
             
     return passContent
 
@@ -77,7 +79,7 @@ def generatePassword():
 def savePasswordToFile(fileName="PasswordFile.txt"):
     savingUserInput = input("Would you like to save this password to a file? [Y/N]")
     if savingUserInput == "Y":
-        nameOfFileUserInput = input("Please type the use of the file and the file name by :. Ex: Facebook:mypass.txt\n")
+        nameOfFileUserInput = input("Please type the use of the file and the file name separated by a colon. For example: Facebook:mypass.txt\n")
         separatedUserInput = nameOfFileUserInput.split(":")
         if len(separatedUserInput) == 2:
             fileName = separatedUserInput[1]
@@ -88,10 +90,10 @@ def savePasswordToFile(fileName="PasswordFile.txt"):
         return separatedUserInput
         
     elif savingUserInput == "N":
-        print("Not saved.\n")
+        print("Your password was not saved.\n")
         main()
     else:
-        print("Not saved. Invalid Input.\n")
+        print("Your password was not saved due to invalid input.\n")
         main()
 
 
